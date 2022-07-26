@@ -1,0 +1,217 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --color1:#10393C;
+    --color2:#FFC727;
+    --color3:#EBF8F9;
+    --color4:#fff;
+    --color5:#000;
+    --color6:#27848B ;
+    --color7:#E9443C;
+}
+a{
+    text-decoration: none;
+    color: var(--color4);
+}
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.herooDiv{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    background: var(--color3);
+}
+.herooMessage{
+    display: grid;
+    place-items: start;
+    padding: 15rem 4rem;
+}
+.herooH1{
+    font:700 3.5rem/3.8rem Poppins, sans-serif;
+    color: var(--color1);
+}
+.herooP{
+    font: 400 1.5rem/1.8rem Poppins,sans-serif;
+    color: var(--color1);
+}
+.herooDivv{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+.herooImg1{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.herooP1{
+    font: 400 1.1rem/1.2rem Poppins,sans-serif;
+    color: var(--color7);
+    margin: .5rem 0 0 0;
+}
+.herooBtn1{
+    background: transparent;
+    padding: .5rem .9rem;
+    border-radius: 2rem;
+    border: 1px solid var(--color1);
+    color: var(--color1);
+}
+.herooBtn1:hover{
+    cursor: pointer;
+    background: var(--color6);
+    color: var(--color5);
+    /* font-weight: 500; */
+    color: var(--color4);
+    transition: 400ms ease-in-out;
+}
+/* body section  */
+.bodyDiv{
+    display: grid;
+    grid-template-columns: minmax(auto,70%);
+    justify-content: center;
+    background: var(--color4);
+}
+.bodyDiv1{
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(10rem, 1fr));
+    gap: 2rem;
+    margin: 5rem 0;
+}
+.bodyH2{
+    font: 700 2rem/2.4rem Poppins, sans-serif;
+    color: var(--color6);
+}
+.bodyP1{
+    font: 400 1.2rem/1.8rem Poppins, sans-serif;
+    color: var(--color5);
+}
+.bodyDiv2{
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(10rem, 1fr));
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 3rem 0;
+}
+.bodyImg1{
+    border-radius: 2rem;
+}
+.bodyH3{
+    font: 600 1.8rem/2.2rem Poppins, sans-serif;
+    color: var(--color6);
+}
+.bodyP2{
+    font: 400 1.2rem/1.8rem Poppins, sans-serif;
+    color: var(--color5);
+    margin-left: 2rem;
+}
+.bodyDiv3{
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(10rem, 1fr));
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 3rem 0;
+}
+.bodyDiv4{
+    display: grid;
+    place-items: center;
+    text-align: center;
+    margin: 5rem 0 5rem;
+}
+.bodyP4{
+    font:500 1.7rem/1.7rem Poppins,sans-serif;
+    color: var(--color6);
+}
+/* intake section  */
+.intDiv{
+    display: grid;
+    grid-template-columns: minmax(auto,50%);
+    justify-content: center;
+    background: var(--color3);
+}
+.intDivMessage{
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+.intP1{
+    font: 400 1.5rem/1.7rem Poppins, sans-serif;
+    color: var(--color6);
+}
+.intP2{
+    font: 500 2rem/2.1rem Poppins, sans-serif;
+    color: var(--color5);
+}
+.intBtn{
+    background: var(--color2);
+    padding: .5rem .9rem;
+    border-radius: 2rem;
+    border: 1px solid var(--color2);
+    color: var(--color1);
+    margin: 2rem 0 2rem 0
+}
+.intBtn:hover{
+    cursor: pointer;
+    background: var(--color6);
+    color: var(--color5);
+    font-weight: 500;
+    transition: 400ms ease-in-out;
+}
+/* footer section  */
+.footDiv{
+    display: grid;
+    grid-template-columns: minmax(auto,80%);
+    justify-content: center;
+    background: var(--color1);
+    padding: 2rem 0;
+}
+.footWrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(10rem, 1fr));
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+.footImg{
+    height: 100%;
+    width:40% ;
+    object-fit: contain;
+    background: transparent;
+}
+.footP1{
+    font:400 1rem/1.5rem Poppins, sans-serif;
+    color:var(--color4);
+}
+.footP2{
+    font:400 1rem/1.5rem Poppins, sans-serif;
+    color:var(--color4);
+    margin-top: 1.2rem;
+}
+.footDiv3{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(4rem,1fr));
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.footDiv4{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    gap: -4rem;
+}
+.footImg2{
+    height: 100%;
+    width:100% ;
+    object-fit: contain;
+}
