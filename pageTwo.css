@@ -98,7 +98,6 @@ img{
     grid-template-columns: minmax(auto,70%);
     justify-content: center;
     background: var(--color4);
-    border: 1px solid red;
 }
 .bodyDiv1{
     display: grid;
